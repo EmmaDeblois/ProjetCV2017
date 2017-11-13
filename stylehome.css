@@ -1,0 +1,23 @@
+#header{
+	position : relative;
+	background-color:black;
+	height:90px;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	transition: all 0.2s ease 0s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#emma{
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	color:white;	
+}
+
