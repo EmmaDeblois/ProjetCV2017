@@ -1,0 +1,119 @@
+
+html, body {
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+}
+
+body{
+    background-color: #DCDCDC;
+    margin-top:0;
+    margin-bottom:0;
+    padding:0;
+    color: black;
+}
+
+
+
+h1{
+    font-family: 'Cantarell', sans-serif;
+    font-size:40px;
+    margin:0;
+}
+
+p{
+    margin:0;
+}
+
+#bandeau{
+        background: black;
+        color: white;
+        height: 30%;
+}
+
+
+table{
+    width:100%;    
+}
+
+.menu{
+    background-color: #9b9999;
+    font-size:20px;
+    height:30px;
+}
+
+#presentation{
+    background-color:#c9c3c3;
+    padding-left:2%;
+    margin:0;
+    border: 1px solid black;
+    min-height:77vh;
+ 
+}
+
+#formation{
+    background-color:#8e8a8a;
+    padding-left:2%;
+    margin:0;
+    border: 1px solid black;
+    min-height:100vh;
+}
+
+#experiences{
+    background-color:#e0dbdb;
+    margin:0;
+    padding-left:2%;
+    border: 1px solid black;
+    min-height:100vh;
+}
+
+#competences{
+    background-color:#a8a3a3;
+    margin:0;
+    padding-left:2%;
+    border: 1px solid black;
+    min-height:100vh;
+}
+
+#loisirs{
+    background-color:#cec6c6;
+    margin:0;
+    padding-left:2%;
+    border: 1px solid black;
+    min-height:100vh;
+}
+
+#restedubody{
+    margin:0;
+    padding:0;
+    }
+    
+#photo_pres{
+    float:left;
+    padding-left:10%;
+    padding-top: 7%;
+}
+    
+#blabla_pres{
+    float:right;
+    padding-right:20%;
+    padding-top:10%;
+    width: 45%;
+}
+
+#contact{
+    margin-right:10%;
+}
+
+#contact a{
+    display:block;
+    width:200px;
+    line-height:48px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:black;
+    background-image:url(../bouton.png);
+    color:black;
+    text-decoration:none;
+}
+

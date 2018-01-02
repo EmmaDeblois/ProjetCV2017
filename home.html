@@ -1,93 +1,185 @@
+<!DOCTYPE html>
 <html>
-	<head>
-	   <meta charset="utf-8"/>
-		<title>Site CV Emma Deblois</title>
-		<link rel="stylesheet" href="stylehome.css">
-	</head>
+    <head>
+        <meta charset="utf-8"/>
+            <title>Site CV Emma Deblois</title>
+            <link rel="stylesheet" href="CSS/stylehome.css"/>
+    </head>
 	
-	<body>
-		
-		<h1> Emma Deblois </h1>
-		
-		<nav class="menu">
-			<a href="#presentation">Présentation</a>
-			<a href="#formation">Formation</a>
-			<a href="#experiences">Expériences</a>
-			<a href="#competences">Compétences</a>
-			<a href="#loisirs">Loisirs</a>
-		</nav>
+    <body>
+        <script src="Javascript/jquery.js"></script>
+	<header>
+            <div id="bandeau">
+                <table>
+                    <tr>
+                        <td><div id="image_moi"> <img src="emma6.png" /> </div> </td>
+                            <div id="reste">
+                                <td><h1> Emma Deblois </h1></td>
+                                <td><div id="contact" align="right"><a href="contact.html">Contactez - moi ! </a> </div></td>
+                            </div>
+                    </tr>
+                </table>
+            </div>
+        </header>
+        
+        
+        
+       
+        <nav class="menu">
+            <a href="#presentation">Présentation</a>
+            <a href="#formation">Formation</a>
+            <a href="#experiences">Expériences</a>
+            <a href="#competences">Compétences</a>
+            <a href="#loisirs">Loisirs</a>
+        </nav>
+            
+            
+        <div id="restedubody"> 
+            <div id="presentation">
+                <h2> Présentation </h2>		
+                <div id="photo_pres">
+                    <img src="emma4.png" />
+                </div>
+                
+                <div id="blabla_pres">
+                    <p>
+                        Ici je vais mettre une présentation de moi.
+                    </p>
+                    <p>
+                        En recherche d'un stage pour une durée de 2 à 4 mois à partir d'avril 2018.
+                    </p>
+                    <p>
+                        Etudiante en première année de Master à l'université Lille 3 en MIASHS.
+                    </p>
 
-		<div id="presentation">
-			<h1> Présentation </h1>		
-		</div>
-		<p>
-			Ici je vais mettre une présentation de moi
-		</p>
+                </div>
+		
+            </div>
 		
 		
 		
-		
-		<div id="formation">
-			<h1>Formation </h1>
-		</div>
-		<p>
-			Ici, je vais décrire ma formation
-			<ul>
-				<li> <B> Master Mathématiques Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)</B> parcours Web Analyste - Université Lille 3, Villeneuve d'Ascq </li>
-				<li> <B> LicenceMathématiques Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)</B> parcours Mathématiques Appliquées aux Sciences Economique (MASE) - mention AB - Université Lille 3, Villeneuve d'Ascq</li>
-				<li> <B> Baccalauréat économique et social - Spécialité mathématiques </B> - Mention AB - Lycée Charles de Gaulle, Compiègne </li>
-			</ul>
-		</p>
-		
-		
-		<div id="experiences">
-			<h1>Expériences </h1>
-		</div>
-		<p>
-			Ici, mes expériences
-		</p>
-		<p>
-			<B> Chargée d'accueil - Banque Populaire </B>- Compiègne
-			<ul>
-				<li> Accueil physique et téléphonique </li>
-				<li> Opérations courantes </li>
-				<li> Gestion de compte (virements, transactions, consultations de compte, ...)</li>
-			</ul>
-		</p>
-		
-		<p>
-			<B> Chargée d'accueil - Société Générale </B> - La Madeleine
-			<ul>
-				<li> Accueil physique et téléphonique </li>
-				<li> Opérations courantes </li>
-				<li> Gestion de compte (virements, transactions, consultations de compte, ...)</li>
-				<li> Gestion des archives </li>
-				</ul>
-		</p>
-		
-		<p>
-			<B> Stage - CNAV (Caisse Nationale d'Assurance Vieillesse) pôle Prévisions </B> - Paris 
-			<ul>
-				<li> Analyse des impacts des différentes réformes sur les flux de départs en retraite </li>
-				<li> Etude de grandes bases de données, création de graphiques sur Microsoft Excel </li>
-				<li> Analyse des résultats </li>
-			</ul>
-		</p>
+            <div id="formation">
+                <h2>Formation </h2>
+                <p>
+                    <ul>
+                        <li> <B> Master Mathématiques Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)</B> parcours Web Analyste - Université Lille 3, Villeneuve d'Ascq </li>
+                        <a href="programmemaster.html">Voir le programme </a> - <a href="projetmaster.html">Voir les projets </a>
+                        <li> <B> LicenceMathématiques Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)</B> parcours Mathématiques Appliquées aux Sciences Economique (MASE) - mention AB - Université Lille 3, Villeneuve d'Ascq</li>
+                        <a href="programmelicence.html">Voir le programme </a> - <a href="projetlicence.html">Voir les projets </a>
+                        <li> <B> Baccalauréat économique et social - Spécialité mathématiques </B> - Mention AB - Lycée Charles de Gaulle, Compiègne </li>
+                    </ul>
+                </p>
+            </div>
 		
 		
-		<div id="competences">
-			<h1> Compétences </h1>
-		</div>
-		<p>
-		Quels sont mes compétences ?
-		</p>
+            <div id="experiences">
+                <h1>Expériences </h1>
+                <p>
+                    <B> Chargée d'accueil - Banque Populaire </B>- Compiègne
+                    <ul>
+                        <li> Accueil physique et téléphonique </li>
+                        <li> Opérations courantes </li>
+                        <li> Gestion de compte (virements, transactions, consultations de compte, ...)</li>
+                    </ul>
+                </p>
+            
+		
+                <p>
+                    <B> Chargée d'accueil - Société Générale </B> - La Madeleine
+                    <ul>
+                        <li> Accueil physique et téléphonique </li>
+                        <li> Opérations courantes </li>
+                        <li> Gestion de compte (virements, transactions, consultations de compte, ...)</li>
+                        <li> Gestion des archives </li>
+                    </ul>
+                </p>
+                <p>
+                    <B>Préparateur de commandes - FM Logistic </B> - Ressons-sur-Matz
+                    <ul>
+                        <li> CASES 1 en interne </li>
+                        <li> Eclatement colis, fermeture palette </li>			
+                    </ul>
+                </p>
+                    
+                <p>
+                    <B> Stage - CNAV (Caisse Nationale d'Assurance Vieillesse) pôle Prévisions </B> - Paris 
+                    <ul>
+                        <li> Analyse des impacts des différentes réformes sur les flux de départs en retraite </li>
+                        <li> Etude de grandes bases de données, création de graphiques sur Microsoft Excel </li>
+                        <li> Analyse des résultats </li>
+                    </ul>
+                </p>
+                    
+                <p>
+                    <B>Aide comptable - SCAPARF </B> - Ressons-sur-Matz
+                    <ul>
+                        <li> Remplacement de congès </li>
+                        <li> Tri du courrier, hôtesse d'accueil </li>
+                        <li> Gestion des archives </li>
+                        <li> Emission de factures et suivi informatique </li>
+                    </ul>
+                </p>
+                    
+                <p>
+                    <B> Vente en boulangerie </B> - Béthisy-Saint-Pierre
+                    <ul>
+                        <li> Mise en rayon, service </li>
+                        <li> Préparation de commandes </li>
+                        <li> Caissière </li>
+                    </ul>
+                </p>
+                    
+                <p>
+                    <B> Aide comptable - SCAPARF </B> - Ressons-sur-Matz
+                    <ul> 
+                        <li> Prise en charge des dossiers clients suite à une régularisation (dossier contentieux) </li>
+                        <li> Suivi du contact client </li>
+                        <li> Saisie de factures </li>
+                    </ul>
+                </p>
+            </div>		
+		
+            <div id="competences">
+                <h1> Compétences </h1>
+                <p>
+                    <ul>
+                        <li> Informatique </li>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>PHP</li>
+                                <li>Javascript</li>
+                            </ul>
+                        <li> Bases de données </li>
+                           <ul>
+                                <li>Excel</li>
+                                <li>SQLite</li>
+                            </ul>
+                        <li> Marketing </li>
+                            <ul>
+                                <li>Sphinx</li>
+                                <li>Statistica</li>
+                            </ul>
+                        <li>Machine Learning</li>
+                            <ul>
+                                <li>Rodeo</li>
+                                <li>language Python</li>
+                            </ul>
+                        <li>Reporting décisonnel</li>
+                            <ul>
+                                <li>QlikView</li>
+                            </ul>
+                    </ul>
+                </p>
+            </div>
 		
 		
-		<div id="loisirs">
-			<h1> Loisirs </h1>
-		</div>
-		<p>
-		Et enfin ici, je vais mettre tous mes loisirs / activités extra scolaires / voyages ...
-		</p>
-	</body>
+            <div id="loisirs">
+                    <h1> Loisirs </h1>
+                <p>
+                    Et enfin ici, je vais mettre tous mes loisirs / activités extra scolaires / voyages ...
+                </p>
+            </div>
+         </div>   
+    </body>
 </html>
